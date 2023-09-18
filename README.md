@@ -4,7 +4,7 @@
 SRT Fixer is a Go-based application developed with the Fyne framework. It addresses the issue of incorrect Persian subtitle display in SRT format when played on various video players. This tool rectifies problems related to character encoding and formatting, ensuring that Persian subtitles are correctly presented.
 
 ## Download
-You can download the portable executable of SRT Fixer from the [Releases](https://github.com/yourusername/srt-fixer/releases) section. The portable version requires no installation and runs directly on your system.
+You can download the portable executable of SRT Fixer from the [Releases]([https://github.com/ButcherWithSmile/srt-fixer/releases/])) section. The portable version requires no installation and runs directly on your system.
 
 ## Source Code
 The project's source code is available in the repository. You can compile the code yourself by following these steps:
