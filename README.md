@@ -12,7 +12,7 @@ The project's source code is available in the repository. You can compile the co
 2. Compile and run the `main.go` file using Go.
 
 ## Icon
-The project's icon is sourced from [icons8.com](https://icons8.com/) and is used under the GPL-3.0 license.
+The project's icon is sourced from [icons8.com](https://icons8.com/).
 
 ## How it Works
 SRT Fixer takes SRT subtitle files that exhibit display issues on certain video players and corrects them, ensuring an accurate display of Persian subtitles.
