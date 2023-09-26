@@ -14,6 +14,7 @@ import (
 )
 
 func main() {
+	// This code creates a new Fyne application and window. It also sets the window's icon
 	myApp := app.New()
 	myWindow := myApp.NewWindow("SRT Fixer")
 
@@ -22,6 +23,13 @@ func main() {
 
 	myWindow.Resize(fyne.NewSize(600, 400))
 
+	/* This code creates a file entry widget, a select file button, and a fix SRT button.
+
+	The select file button opens a dialog box that allows the user to select an SRT file.
+ 	Once the user selects a file, the file path is displayed in the file entry widget.
+
+	The fix SRT button fixes the SRT file by decoding it from Windows-1256 encoding to UTF-8 encoding. 
+	The fixed file is saved with the same name as the original file but with the "_fixed" suffix. */
 	fileEntry := widget.NewEntry()
 	fileEntry.Disable()
 
@@ -75,6 +83,9 @@ func main() {
 		dialog.ShowInformation("Success", fmt.Sprintf("Fixed file saved as %s", newFileName), myWindow)
 	})
 
+	// This code creates an About tab and an App tabs widget
+	// The app tabs widget contains two tabs: Main and About
+	// The Main tab contains the select file button, file entry widget, and fix SRT button
 	aboutTab := container.NewVBox(
 		widget.NewLabel("SRT Fixer"),
 		widget.NewLabel("Version: 1.0.0"),
