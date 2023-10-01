@@ -18,7 +18,7 @@ func main() {
 	myApp := app.New()
 	myWindow := myApp.NewWindow("SRT Fixer")
 
-	r, _ := fyne.LoadResourceFromURLString("https://raw.githubusercontent.com/Hatef-PR/SRT-Fixer/main/icon.png")
+	r, _ := fyne.LoadResourceFromURLString("https://raw.githubusercontent.com/ButcherWithSmile/srt-fixer/main/icon.png")
 	myWindow.SetIcon(r)
 
 	myWindow.Resize(fyne.NewSize(600, 400))
